@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>赤ちゃんモニター</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" integrity="sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=" crossorigin="anonymous" />
+</head>
+<body>
+<div class="container">
+    <h1 class="h2 text-center font-weight-normal mt-5 text-secondary d-sm-none">赤ちゃんモニター</h1>
+    <h1 class="text-center font-weight-normal mt-5 text-secondary d-none d-sm-block">赤ちゃんモニター</h1>
+</div>
+<div class="container" id="forms">
+    <div class="form-inline justify-content-center">
+        <label for="word" class="col-form-label mr-2">合言葉</label>
+        <div>
+            <input type="text" id="word" class="form-control mr-md-2">
+        </div>
+        <button class="btn btnGoBaby btn-secondary mr-2 mt-3 mt-md-0 d-none d-md-block" disabled>
+            <span class="oi oi-video" title="video" aria-hidden="true"></span>
+            カメラとして使う
+        </button>
+        <button class="btn btnGoParent btn-secondary mt-3 mt-md-0 d-none d-md-block" disabled>
+            <span class="oi oi-monitor" title="monitor" aria-hidden="true"></span>
+            モニターとして使う
+        </button>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-8 col-sm-6 d-md-none">
+            <button class="btn btnGoBaby btn-secondary btn-block mr-2 mt-3 mt-md-0" disabled>
+                <span class="oi oi-video" title="video" aria-hidden="true"></span>
+                カメラとして使う
+            </button>
+            <button class="btn btnGoParent btn-secondary btn-block mt-3 mt-md-0" disabled>
+                <span class="oi oi-monitor" title="monitor" aria-hidden="true"></span>
+                モニターとして使う
+            </button>
+        </div>
+    </div>
+    <p class="text-center text-muted my-4">
+        <small>Powered by <a href="https://webrtc.ecl.ntt.com/">SkyWay</a>. Photo by <a href="https://www.flickr.com/photos/rifqidahlgren/16373547459/" target="_blank">Peter Dahlgren</a>.</small>
+    </p>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
