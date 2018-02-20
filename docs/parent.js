@@ -35,10 +35,15 @@ function tapScreenAsync(argObj) {
         const remoteStream = argObj.remoteStream;
         video.srcObject = remoteStream;
 
-        const btnPlay = document.getElementById('btnPlay');
-        btnPlay.addEventListener('click', () => {
-            resolve(argObj);
-        });
+        const ua = window.navigator.userAgent.toLowerCase();
+        if (ua.indexOf('safari') !== -1 && ua.indexOf('chrome') === -1) {
+            const btnPlay = document.getElementById('btnPlay');
+            btnPlay.addEventListener('click', () => {
+                resolve(argObj);
+            });
+            return;
+        }
+        resolve(argObj);
     });
 }
 
