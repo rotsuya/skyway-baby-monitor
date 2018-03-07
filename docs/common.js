@@ -14,6 +14,10 @@ const ROOM = hash;
 const PARENT = ROOM + '-parent';
 const html = document.getElementsByTagName('html')[0];
 const video = document.getElementById('video');
+const ROOM_OPTIONS = {
+    mode: 'mesh',
+    videoCodec: 'H264'
+};
 
 function newPeerAsync(argObj) {
     return new Promise((resolve, reject) => {
@@ -49,7 +53,7 @@ function joinRoomAsync(args) {
         const argObj = getArgAsObj(args);
         const peer = argObj.peer;
         const localStream = argObj.localStream;
-        const option = { mode: 'mesh' };
+        const option = argObj.roomOptions;
         if (localStream) {
             option.stream = localStream;
         }

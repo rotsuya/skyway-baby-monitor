@@ -14,7 +14,11 @@ if (isMobile) {
     };
 }
 
-const argObj = { localPeerId: PARENT, mediaConstraints };
+const argObj = {
+    localPeerId: PARENT,
+    mediaConstraints,
+    roomOptions: ROOM_OPTIONS
+};
 
 function gUMAsync(argObj) {
     return new Promise((resolve, reject) => {

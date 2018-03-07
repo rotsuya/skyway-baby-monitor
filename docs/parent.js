@@ -1,7 +1,10 @@
 const TIMEOUT_WAIT_STREAM = 5000;
 window.AudioContext = window.AudioContext || window.webkitAudioContext;
 const audioCtx = new AudioContext();
-const argObj = { audioCtx };
+const argObj = {
+    audioCtx,
+    roomOptions: ROOM_OPTIONS
+};
 
 function streamAsync(argObj) {
     return new Promise((resolve, reject) => {
