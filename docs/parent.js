@@ -69,7 +69,6 @@ function getAudioSourceAsync(argObj) {
 }
 
 newPeerAsync(argObj)
-    .then(newPeerAsync)
     .then(joinRoomAsync)
     .then(streamAsync)
     .then(tapScreenAsync)
