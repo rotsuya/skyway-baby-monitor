@@ -39,7 +39,7 @@ function tapScreenAsync(argObj) {
         video.srcObject = remoteStream;
 
         const ua = window.navigator.userAgent.toLowerCase();
-        if (ua.indexOf('safari') !== -1 && ua.indexOf('chrome') === -1) {
+        if (ua.includes('safari') && !ua.includes('chrome')) {
             const btnPlay = document.getElementById('btnPlay');
             btnPlay.addEventListener('click', () => {
                 resolve(argObj);
