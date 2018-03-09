@@ -1,3 +1,11 @@
 body {
     background: #fff url(baby.jpg) left center / cover no-repeat;
 }
+
+h1.d-sm-none {
+    text-shadow: 0 0 2px #000;
+}
+
+h1.d-sm-block {
+    text-shadow: 0 0 4px rgba(0,0,0,0.5);
+}
