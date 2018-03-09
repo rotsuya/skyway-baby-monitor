@@ -10,38 +10,46 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" integrity="sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=" crossorigin="anonymous" />
 </head>
 <body>
-<div class="container">
-    <h1 class="h2 text-center font-weight-normal mt-5 text-white d-sm-none">赤ちゃんモニター</h1>
-    <h1 class="text-center font-weight-normal mt-5 text-white d-none d-sm-block">赤ちゃんモニター</h1>
-</div>
-<div class="container" id="forms">
-    <div class="form-inline justify-content-center">
-        <label for="word" class="col-form-label mr-2">合言葉</label>
-        <div>
-            <input type="text" id="word" class="form-control mr-md-2">
-        </div>
-        <button class="btn btnGoBaby btn-secondary mr-2 mt-3 mt-md-0 d-none d-md-block" disabled>
-            <span class="oi oi-video" title="video" aria-hidden="true"></span>
-            カメラとして使う
-        </button>
-        <button class="btn btnGoParent btn-secondary mt-3 mt-md-0 d-none d-md-block" disabled>
-            <span class="oi oi-monitor" title="monitor" aria-hidden="true"></span>
-            モニターとして使う
-        </button>
+<div class="first-view pt-5">
+    <div class="container">
+        <h1 class="h2 text-center font-weight-normal mt-5 text-white d-sm-none">赤ちゃんモニター</h1>
+        <h1 class="text-center font-weight-normal mt-5 text-white d-none d-sm-block">赤ちゃんモニター</h1>
     </div>
-    <div class="row justify-content-center">
-        <div class="col-8 col-sm-6 d-md-none">
-            <button class="btn btnGoBaby btn-secondary btn-block mr-2 mt-3 mt-md-0" disabled>
+    <div class="container" id="forms">
+        <div class="form-inline justify-content-center">
+            <label for="word" class="col-form-label mr-2">合言葉</label>
+            <div>
+                <input type="text" id="word" class="form-control mr-md-2">
+            </div>
+            <button class="btn btnGoBaby btn-secondary mr-2 mt-3 mt-md-0 d-none d-md-block" disabled>
                 <span class="oi oi-video" title="video" aria-hidden="true"></span>
                 カメラとして使う
             </button>
-            <button class="btn btnGoParent btn-secondary btn-block mt-3 mt-md-0" disabled>
+            <button class="btn btnGoParent btn-secondary mt-3 mt-md-0 d-none d-md-block" disabled>
                 <span class="oi oi-monitor" title="monitor" aria-hidden="true"></span>
                 モニターとして使う
             </button>
         </div>
+        <div class="row justify-content-center">
+            <div class="col-8 col-sm-6 d-md-none">
+                <button class="btn btnGoBaby btn-secondary btn-block mr-2 mt-3 mt-md-0" disabled>
+                    <span class="oi oi-video" title="video" aria-hidden="true"></span>
+                    カメラとして使う
+                </button>
+                <button class="btn btnGoParent btn-secondary btn-block mt-3 mt-md-0" disabled>
+                    <span class="oi oi-monitor" title="monitor" aria-hidden="true"></span>
+                    モニターとして使う
+                </button>
+            </div>
+        </div>
+        <p class="text-center text-muted my-4">
+            <span class="oi oi-chevron-bottom"></span><br>
+            <small>詳しく知りたい</small>
+        </p>
     </div>
-    <p class="text-center text-muted my-4">
+</div>
+<div class="container">
+    <p class="text-center text-muted">
         <small>Powered by <a href="https://webrtc.ecl.ntt.com/">SkyWay</a>. Photo by <a href="https://www.flickr.com/photos/rifqidahlgren/16373547459/" target="_blank">Peter Dahlgren</a>.</small>
     </p>
 </div>

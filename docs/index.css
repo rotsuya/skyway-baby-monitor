@@ -1,5 +1,12 @@
 body {
+    background-color: #e7e6e6 !important;
+}
+
+.first-view {
+    width: 100%;
+    height: 100vh;
     background: #fff url(baby.jpg) left center / cover no-repeat;
+    overflow: hidden;
 }
 
 h1.d-sm-none {
