@@ -28,7 +28,9 @@ SkyWay(のCommunity Editionという無償プラン)のおかげで、短期間�
 
 1台のカメラに対して、2台以上でモニターすることもできます。
 ただし、モニターする台数が増えると、カメラの負荷が高くなります。
+{% comment %}
 多くの台数でモニターしたい方は、[高度な使い方](#advanced)をお読みください。
+{% endcomment %}
 
 
 # より便利な使いかた
@@ -77,9 +79,9 @@ Wi-Fiの電磁波の強さは4Gの**20分の1**です。
 # 対応環境
 {: .text-muted .my-5 }
 
-スマホ・タブレット(iPhone, iPad, iPod touch, Android)、パソコン(Windows, Mac)の、ブラウザ(Safari、Chrome、Firefox)で利用できます。
+スマホ・タブレット(iPhone, iPad, Android)、パソコン(Windows, Mac)の、ブラウザ(Safari、Chrome、Firefox)で利用できます。
 
-- iPhone (iPhone 5s以降), iPad (iPad 第5世代以降、iPad mini 2以降), iPod touch (第6世代以降)
+- iPhone (iPhone 5s以降), iPad (iPad 第5世代以降、iPad mini 2以降)
     - iOS 11.2.6以上
 - Android (対応していない機種があります)
     - Chrome 最新版とその1つ前のバージョン
@@ -115,6 +117,7 @@ iPhone用アプリには、次のようなものがあるようです。
 
 大企業や大学のネットワーク内から利用する場合は、SkyWayのアプリケーションの設定で「TURNを利用する」を有効にする必要があります。
 
+{% comment %}
 多くの台数でモニターしたい場合は、SkyWayのアプリケーションの設定で「SFUを利用する」を有効にし、`ROOM_OPTIONS.mode = 'sfu'`に設定する必要があります。
 
 ```js
@@ -123,3 +126,4 @@ const ROOM_OPTIONS = {
     videoCodec: 'H264'
 };
 ```
+{% endcomment %}
