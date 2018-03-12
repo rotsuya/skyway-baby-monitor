@@ -102,7 +102,7 @@ iPhone用アプリには、次のようなものがあるようです。
 - [ベビーモニター：万能なビデオ監視](https://itunes.apple.com/jp/app/id735272656?mt=8){: target="blank" }
 
 # 高度な使いかた
-{: .text-muted .my-5 id="advanced" }
+{: .my-5 id="advanced" }
 
 これ以降は開発者向けの説明です。
 ソースコードを[GitHub](https://github.com/rotsuya/skyway-baby-monitor/){: target="blank" }で公開しています。
