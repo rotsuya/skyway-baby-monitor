@@ -107,9 +107,11 @@ iPhone用アプリには、次のようなものがあるようです。
 以降は開発者向けの説明です。
 
 ソースコードを[GitHub](https://github.com/rotsuya/skyway-baby-monitor/){: target="blank" }で公開しています。
-自由に利用することができます。
+自由に改変・設置することができます。
 
-大企業や大学のネットワーク内から利用する場合は、SkyWayのアプリケーションの設定で「TURNを利用する」を有効にする必要があります。
+大企業や大学のネットワーク内から利用するためには、TURNサーバが必要な場合があります。
+TURNサーバを利用するためには、ご自身でこのプログラムをサーバに設置し、SkyWayのアプリケーションの設定で「TURNを利用する」を有効にしてください。
+詳しくは、[README](https://github.com/rotsuya/skyway-baby-monitor/){: target="blank" }をご覧ください。
 
 {% comment %}
 多くの台数でモニターしたい場合は、SkyWayのアプリケーションの設定で「SFUを利用する」を有効にし、`ROOM_OPTIONS.mode = 'sfu'`に設定する必要があります。
