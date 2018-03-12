@@ -13,3 +13,7 @@ h1.d-sm-none, h1.d-sm-block {
     font-weight: 100;
     text-shadow: 0 0 2px #fff;
 }
+
+h1.my-5 {
+    font-weight: 100;
+}

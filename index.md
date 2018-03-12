@@ -2,7 +2,7 @@
 layout: index
 ---
 # これは何？
-{: .text-muted .my-5 }
+{: .my-5 }
 
 赤ちゃんの様子を見守るアプリです。
 赤ちゃんが寝ている間に、別室で家事をするときなどに便利です。
@@ -16,7 +16,7 @@ layout: index
 SkyWay(のCommunity Editionという無償プラン)のおかげで、短期間に開発し、無料で提供することができました。
 
 # 使いかたは2ステップ
-{: .text-muted .my-5 }
+{: .my-5 }
 
 1. カメラとして使いたいスマホ or パソコンでこのページを開き、合言葉を入力し、「<span class="oi oi-video" title="video" aria-hidden="true"></span> カメラとして使う」をタップします。
 2. モニターとして使いたいスマホ or パソコンでこのページを開き、1で決めた合言葉を入力し、「<span class="oi oi-monitor" title="monitor" aria-hidden="true"></span> モニターとして使う」をタップします。
@@ -33,7 +33,7 @@ SkyWay(のCommunity Editionという無償プラン)のおかげで、短期間�
 {% endcomment %}
 
 # より便利な使いかた
-{: .text-muted .my-5 }
+{: .my-5 }
 
 ![camera](camera.jpg){: .img-fluid }
 
@@ -53,7 +53,7 @@ SkyWay(のCommunity Editionという無償プラン)のおかげで、短期間�
 - [TOPEAK ライドケース](https://www.amazon.co.jp/dp/B06XCQBVYY/){: target="blank" }
 
 # 注意していただきたいこと
-{: .text-muted .my-5 }
+{: .my-5 }
 
 iPhoneをカメラとして使った場合に、時々、音が送られなくなることがあります。
 Safariを強制終了してやり直すと直ります。([Apple公式サイトの手順](https://support.apple.com/ja-jp/HT201330))    
@@ -72,7 +72,7 @@ Wi-Fiの電磁波の強さは4Gの**20分の1**です。
 そういった環境で利用したい方は、[高度な使い方](#advanced)をお読みください。
 
 # 対応環境
-{: .text-muted .my-5 }
+{: .my-5 }
 
 スマホ・タブレット(iPhone, iPad, Android)、パソコン(Windows, Mac)の、ブラウザ(Safari、Chrome、Firefox)で利用できます。
 
@@ -90,7 +90,7 @@ Wi-Fiの電磁波の強さは4Gの**20分の1**です。
     - Firefox 最新版とその1つ前のバージョン
 
 # 専用機や専用アプリの紹介
-{: .text-muted .my-5 }
+{: .my-5 }
 
 使い勝手や機能面では、専用機や専用アプリにはかないません。
 このアプリが物足りなく感じる方は、試してみてください。
