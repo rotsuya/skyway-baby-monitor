@@ -32,7 +32,6 @@ SkyWay(のCommunity Editionという無償プラン)のおかげで、短期間�
 多くの台数でモニターしたい方は、[高度な使い方](#advanced)をお読みください。
 {% endcomment %}
 
-
 # より便利な使いかた
 {: .text-muted .my-5 }
 
@@ -43,8 +42,6 @@ SkyWay(のCommunity Editionという無償プラン)のおかげで、短期間�
 電池の消耗が激しいので、電源アダプタに接続したまま利用することをお勧めします。
 コンセントから離れている場所で使う場合は、USB延長ケーブルが便利です。
 
-(TODO: あとでアフィリエイトリンクに変更ｗ)
-
 - [Manfrotto ミニ三脚 PIXI Smart](https://www.amazon.co.jp/dp/B0169SORBO/){: target="blank" }
 - [無印良品 LED持ち運びできるあかり](https://lohaco.jp/product/9741156/){: target="blank" }
 - [iBUFFALO USB2.0延長ケーブル ホワイト 3m](https://www.amazon.co.jp/dp/B007STDM2O/){: target="blank" }
@@ -52,8 +49,6 @@ SkyWay(のCommunity Editionという無償プラン)のおかげで、短期間�
 ![monitor](monitor.jpg){: .img-fluid }
 
 台所などでモニターする場合は、スタンドになるもスマホケースが便利です。
-
-(TODO: あとでアフィリエイトリンクに変更ｗ)
 
 - [TOPEAK ライドケース](https://www.amazon.co.jp/dp/B06XCQBVYY/){: target="blank" }
 
@@ -100,8 +95,6 @@ Wi-Fiの電磁波の強さは4Gの**20分の1**です。
 使い勝手や機能面では、専用機や専用アプリにはかないません。
 このアプリが物足りなく感じる方は、試してみてください。
 iPhone用アプリには、次のようなものがあるようです。
-
-(TODO: あとでアフィリエイトリンクに変更ｗ)
 
 - [ベビーモニター 3G](https://itunes.apple.com/jp/app/id490077681?mt=8){: target="blank" }
 - [Cloud Baby Monitor](https://itunes.apple.com/jp/app/id432791399?mt=8){: target="blank" }
