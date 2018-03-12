@@ -19,3 +19,7 @@ Web application of baby monitoring, powered by [SkyWay](https://webrtc.ecl.ntt.c
    ```bash
    $ bundle exec jekyll serve
    ```
+
+### Demo
+
+https://rotsuya.github.io/skyway-baby-monitor/
