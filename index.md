@@ -104,7 +104,8 @@ iPhone用アプリには、次のようなものがあるようです。
 # 高度な使いかた
 {: .my-5 id="advanced" }
 
-これ以降は開発者向けの説明です。
+以降は開発者向けの説明です。
+
 ソースコードを[GitHub](https://github.com/rotsuya/skyway-baby-monitor/){: target="blank" }で公開しています。
 自由に利用することができます。
 
