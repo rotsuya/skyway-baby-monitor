@@ -4,8 +4,6 @@ Web application of baby monitoring, powered by [SkyWay](https://webrtc.ecl.ntt.c
 
 ## Usage
 
-### Run locally
-
 1. Register [SkyWay](https://webrtc.ecl.ntt.com/) and make application. If you want to use within firewalls or proxy servers, please enable "TURN".
 2. Copy and paste your own API key to `common.js`.
    ```js
@@ -20,6 +18,6 @@ Web application of baby monitoring, powered by [SkyWay](https://webrtc.ecl.ntt.c
    $ bundle exec jekyll serve
    ```
 
-### Demo
+## Demo
 
 https://rotsuya.github.io/skyway-baby-monitor/
