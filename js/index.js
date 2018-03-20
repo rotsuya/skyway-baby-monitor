@@ -41,13 +41,13 @@ if (storedWord) {
 
 Array.prototype.forEach.call(btnsGoBaby, element => {
     element.addEventListener('click', () => {
-        launchApp('baby.html');
+        launchApp('camera.html');
     });
 });
 
 Array.prototype.forEach.call(btnsGoParent, element => {
     element.addEventListener('click', () => {
-        launchApp('parent.html');
+        launchApp('monitor.html');
     });
 });
 
