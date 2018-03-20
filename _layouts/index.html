@@ -27,6 +27,17 @@
 </head>
 <body>
 <div class="first-view">
+    <div class="container" id="alerts">
+        <div class="alert alert-dark mt-1 d-none" id="alert-android" role="alert">
+            ChromeまたはFirefoxで開いてください。
+        </div>
+        <div class="alert alert-dark mt-1 d-none" id="alert-ios" role="alert">
+            Safariで開いてください。
+        </div>
+        <div class="alert alert-dark mt-1 d-none" id="alert-pc" role="alert">
+            Safari、ChromeまたはFirefoxで開いてください。
+        </div>
+    </div>
     <div class="container">
         <h1 class="h2 text-center mt-5 text-dark d-sm-none">赤ちゃんモニター</h1>
         <h1 class="text-center mt-5 text-dark d-none d-sm-block">赤ちゃんモニター</h1>
@@ -35,7 +46,7 @@
         <div class="form-inline justify-content-center">
             <label for="word" class="col-form-label mr-2">合言葉</label>
             <div>
-                <input type="text" id="word" class="form-control mr-md-2">
+                <input type="text" id="word" class="form-control mr-md-2" placeholder="を入力して、">
             </div>
             <button class="btn btnGoBaby btn-secondary mr-2 mt-3 mt-md-0 d-none d-md-block" disabled>
                 <span class="oi oi-video" title="video" aria-hidden="true"></span>

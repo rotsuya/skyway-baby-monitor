@@ -52,3 +52,21 @@ Array.prototype.forEach.call(btnsGoParent, element => {
 });
 
 word.addEventListener('input', enableButton);
+
+const platform = navigator.platform;
+const isIos = platform === 'iPhone' || platform === 'iPad' || platform === 'iPod';
+const isAndroid = /Android/.test(navigator.userAgent);
+const alertIos = document.getElementById('alert-ios');
+const alertAndroid = document.getElementById('alert-android');
+const alertPc = document.getElementById('alert-pc');
+
+if (!(window.RTCPeerConnection || window.mozRTCPeerConnection || window.webkitRTCPeerConnection)
+    || !navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+    if (isIos) {
+        alertIos.classList.remove('d-none');
+    } else if (isAndroid) {
+        alertAndroid.classList.remove('d-none');
+    } else {
+        alertPc.classList.remove('d-none');
+    }
+}
