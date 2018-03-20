@@ -33,8 +33,8 @@ SkyWay(のCommunity Editionという無償プラン)のおかげで、短期間�
 # より便利な使いかた
 {: .my-5 }
 
-![camera](images/camera.jpg){: .img-fluid style="max-width: 400px;" }
-![monitor](images/monitor.jpg){: .img-fluid style="max-width: 400px;" } 
+![camera](images/camera.jpg){: .img-fluid .mb-1 style="width: 400px;" }
+![monitor](images/monitor.jpg){: .img-fluid .mb-1 style="width: 400px;" } 
 
 電池の消耗が激しいので、電源アダプタに接続したまま利用することをお勧めします。
 コンセントから離れている場所で使う場合は、USB延長ケーブルが便利です。
