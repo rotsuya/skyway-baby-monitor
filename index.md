@@ -54,10 +54,10 @@ SkyWay(のCommunity Editionという無償プラン)のおかげで、短期間�
 # 注意していただきたいこと
 {: .my-5 }
 
-iPhoneをカメラとして使った場合に、時々、音が送られなくなることがあります。
-Safariを強制終了してやり直すと直ります。([Apple公式サイトの手順](https://support.apple.com/ja-jp/HT201330))    
+iPhoneをカメラとして使った場合に、時々、音が送られないことがあります。
+Safariを強制終了してすると直ります。([Apple公式サイトの手順](https://support.apple.com/ja-jp/HT201330))    
 モニターを始めた時に、モニター側に音が届いていることを必ず確認してください。
-音が届いているときは、モニター側のアドレスバー(Safari)またはタブ(Chrome、Firefox)に、スピーカーのマークが表示されます。
+モニター側のアドレスバー(Safari)またはタブ(Chrome、Firefox)の、スピーカーのマークが目印です。
 今のところ、使っている途中で音を送らなくなることはないようです。
 
 電磁波の身体への影響を心配される方に、参考までにお伝えします。
@@ -77,14 +77,14 @@ Wi-Fiの電磁波の強さは4Gの**20分の1**です。
 
 - iPhone (iPhone 5s以降), iPad (iPad 第5世代以降、iPad mini 2以降)
     - iOS 11.2.6以上
-- Android (対応していない機種があります)
+- Android (一部の機種は非対応なようです)
     - Chrome 最新版とその1つ前のバージョン
     - Firefox 最新版とその1つ前のバージョン
 - Windows
     - Chrome 最新版とその1つ前のバージョン
     - Firefox 最新版とその1つ前のバージョン
-- Mac (macOS High Sierra以上)
-    - Safari 11.0.3以上
+- Mac
+    - Safari 11.0.3以上 (macOS High Sierra以上)
     - Chrome 最新版とその1つ前のバージョン
     - Firefox 最新版とその1つ前のバージョン
 
@@ -111,14 +111,3 @@ iPhone用アプリには、次のようなものがあるようです。
 大企業や大学のネットワーク内から利用するためには、TURNサーバが必要な場合があります。
 TURNサーバを利用するためには、ご自身でこのプログラムをサーバに設置し、SkyWayのアプリケーションの設定で「TURNを利用する」を有効にしてください。
 詳しくは、[README](https://github.com/rotsuya/skyway-baby-monitor/){: target="blank" }をご覧ください。
-
-{% comment %}
-多くの台数でモニターしたい場合は、SkyWayのアプリケーションの設定で「SFUを利用する」を有効にし、`ROOM_OPTIONS.mode = 'sfu'`に設定する必要があります。
-
-```js
-const ROOM_OPTIONS = {
-    mode: 'sfu',
-    videoCodec: 'H264'
-};
-```
-{% endcomment %}
