@@ -35,18 +35,17 @@ SkyWay(のCommunity Editionという無償プラン)のおかげで、短期間�
 # より便利な使いかた
 {: .my-5 }
 
-![camera](camera.jpg){: .img-fluid }
+![camera](camera.jpg){: .img-fluid style="max-width: 400px;" }
+![monitor](monitor.jpg){: .img-fluid style="max-width: 400px;" } 
 
-スマホ用三脚を使うと、カメラの向きを自由に変えられます。
-充電式LEDライトがあると、夜でも赤ちゃんの表情が確認できます。
 電池の消耗が激しいので、電源アダプタに接続したまま利用することをお勧めします。
 コンセントから離れている場所で使う場合は、USB延長ケーブルが便利です。
+スマホ用三脚を使うと、カメラの向きを自由に変えられます。
+充電式LEDライトがあると、夜でも赤ちゃんの表情が確認できます。
 
 - [Manfrotto ミニ三脚 PIXI Smart](https://www.amazon.co.jp/dp/B0169SORBO/){: target="blank" }
 - [無印良品 LED持ち運びできるあかり](https://lohaco.jp/product/9741156/){: target="blank" }
 - [iBUFFALO USB2.0延長ケーブル ホワイト 3m](https://www.amazon.co.jp/dp/B007STDM2O/){: target="blank" }
-
-![monitor](monitor.jpg){: .img-fluid }
 
 台所などでモニターする場合は、スタンドになるもスマホケースが便利です。
 
