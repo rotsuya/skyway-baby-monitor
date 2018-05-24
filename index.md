@@ -34,7 +34,7 @@ SkyWay(のCommunity Editionという無償プラン)のおかげで、短期間�
 {: .my-5 }
 
 ![camera](images/camera.jpg){: .img-fluid .mb-1 style="width: 400px;" }
-![monitor](images/monitor.jpg){: .img-fluid .mb-1 style="width: 400px;" } 
+![monitor](images/monitor.jpg){: .img-fluid .mb-1 style="width: 400px;" }
 
 電池の消耗が激しいので、電源アダプタに接続したまま利用することをお勧めします。
 コンセントから離れている場所で使う場合は、USB延長ケーブルが便利です。
@@ -106,9 +106,9 @@ iPhone用アプリには、次のようなものがあるようです。
 
 以降は開発者向けの説明です。
 
-ソースコードを[GitHub](https://github.com/rotsuya/skyway-baby-monitor/){: target="blank" }で公開しています。
+ソースコードを[GitHub](https://github.com/skyway-lab/skyway-baby-monitor/){: target="blank" }で公開しています。
 自由に改変・設置することができます。
 
 大企業や大学のネットワーク内から利用するためには、TURNサーバが必要な場合があります。
 TURNサーバを利用するためには、ご自身でこのプログラムをサーバに設置し、SkyWayのアプリケーションの設定で「TURNを利用する」を有効にしてください。
-詳しくは、[README](https://github.com/rotsuya/skyway-baby-monitor/){: target="blank" }をご覧ください。
+詳しくは、[README](https://github.com/skyway-lab/skyway-baby-monitor/){: target="blank" }をご覧ください。
