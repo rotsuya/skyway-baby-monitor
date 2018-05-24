@@ -9,7 +9,7 @@ function normalizeHash() {
 
 normalizeHash();
 
-const APIKEY = 'YOUR_API_KEY';
+const APIKEY = '4ccb9eae-d3ce-43c7-8d63-4e81880e13ba';
 const ROOM = hash;
 const PARENT = ROOM + '-parent';
 const html = document.getElementsByTagName('html')[0];
